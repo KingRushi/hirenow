@@ -1,0 +1,261 @@
+.App {
+  font-family: "Muli";
+  text-align: center;
+  background: white;
+  margin: auto;
+  /* background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80") */
+}
+
+.select-cssO {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 1.3;
+  /* padding: 0.6em 2em 0.6em 2em; */
+  padding-left: 13px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    linear-gradient(to bottom, #1d3557 0%, #1d3557 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  align-content: "left";
+  text-align: "left";
+  box-align: "left";
+}
+.select-cssO::-ms-expand {
+  display: none;
+}
+.select-cssO:hover {
+  border-color: #888;
+}
+.select-cssO:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: rgb(243, 148, 148);
+  outline: none;
+}
+.select-cssO option {
+  font-weight: normal;
+}
+
+.select-cssY {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Muli", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 1.3;
+  /* padding: 0.6em 2em 0.6em 2em; */
+  padding-left: 13px;
+  padding-right: 96px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    linear-gradient(to bottom, #1d3557 0%, #1d3557 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  align-content: "left";
+  text-align: "left";
+  box-align: "left";
+}
+.select-cssY::-ms-expand {
+  display: none;
+}
+.select-cssY:hover {
+  border-color: #888;
+}
+.select-cssY:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: rgb(243, 148, 148);
+  outline: none;
+}
+.select-cssY option {
+  font-weight: normal;
+}
+
+.select-css {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Muli", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 1.3;
+  /* padding: 0.6em 2em 0.6em 2em; */
+  padding-left: 13px;
+  padding-right: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    linear-gradient(to bottom, #1d3557 0%, #1d3557 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  align-content: "left";
+  text-align: "left";
+  box-align: "left";
+}
+.select-cssY::-ms-expand {
+  display: none;
+}
+.select-cssY:hover {
+  border-color: #888;
+}
+.select-cssY:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: rgb(243, 148, 148);
+  outline: none;
+}
+.select-cssY option {
+  font-weight: normal;
+}
+
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: "Muli" !important;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-style: normal;
+}
+
+.MuiFormGroup-row {
+  flex-direction: column !important;
+}
+
+.MuiTypography-h6 {
+  text-align: left;
+  font-family: "Muli" !important;
+}
+
+.MuiSwitch-colorSecondary {
+  color: green;
+}
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  /* background: rgb(94, 94, 94); */
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-family: "Muli";
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  font-family: "Muli";
+  font-size: 15;
+}
+
+.glow-on-hover:active {
+  color: #000;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

@@ -1,2 +1,0 @@
-# hirenow
-Created with CodeSandbox
